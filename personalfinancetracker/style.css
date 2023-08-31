@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#balance {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+form input, form select, form button {
+  padding: 5px;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li span {
+  font-weight: bold;
+}
+
+li button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
